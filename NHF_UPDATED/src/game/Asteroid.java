@@ -4,13 +4,6 @@ import java.awt.*;
 import java.util.Random;
 
 public class Asteroid extends Thing {
-
-    //private static final double minRotation = 0.0075;
-
-    //private static final double maxRotation = 0.0175;
-
-    //private static final double deltaRotation = maxRotation - minRotation;
-
     private static final double minVelocity = 0.75;
 
     private static final double maxVelocity = 1.65;
@@ -39,13 +32,7 @@ public class Asteroid extends Thing {
         super(new DescartesVector(parent.position), calculateVelocity(random), size.radius, size.scoreForKilling);
         //rotationSpeed = minRotation + (random.nextDouble() * deltaRotation);
         asteroidSize = size;
-        /// !!!!!!!!! lehet mashogy jelennek meg az asteroidak
-        /*
-        for (int i = 0; i < spawn; i++) {
-            update(null);
-        }
 
-         */
     }
 
     private static DescartesVector calculatePosition(Random random) {

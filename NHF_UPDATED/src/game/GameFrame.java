@@ -15,7 +15,7 @@ public class GameFrame extends JFrame {
 
     //private static final int displayLvL = 60;
 
-    private static final int displayCoolDown = 200;
+    //private static final int displayCoolDown = 200;
 
     private static final int respawnCoolDown = 100;
 
